@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		/>
+		<title>Your Cart</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+
+		<link
+			href="./FontAwesome/css/all.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="./FontAwesome/css/fontawesome.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="./FontAwesome/css/brands.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a
+					class="navbar-brand"
+					href="#"
+					>Cerulean</a
+				>
+
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							role="button"
+							data-bs-toggle="dropdown"
+							aria-expanded="false"
+						>
+							Shop
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a
+									class="dropdown-item"
+									href="/products-listing.html"
+									>Men</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="/products-listing.html"
+									>Women</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="/products-listing.html"
+									>Kids</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="/products-listing.html"
+									>Accessories</a
+								>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							aria-current="page"
+							href="/products-listing.html"
+							>OnSale</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							href="/products-listing.html"
+							>New Arrivals</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link"
+							href="/products-listing.html"
+							>Brands</a
+						>
+					</li>
+				</ul>
+				<form
+					class="d-flex w-25"
+					role="search"
+				>
+					<div class="input-icon w-100">
+						<i
+							class="fa-solid fa-magnifying-glass"
+							style="color: #909090"
+						></i>
+						<input
+							class="form-control me-2 px-5"
+							type="search"
+							placeholder="Search for Products..."
+							aria-label="Search"
+						/>
+					</div>
+				</form>
+				<a
+					class="nav-link navbar-text"
+					href="#"
+				>
+					<img
+						class="px-2"
+						src="assets/icons/Cart.png"
+						alt="Cart"
+						height="24px" /></a
+				><a
+					class="nav-link navbar-text"
+					href="#"
+				>
+					<img
+						class="px-2"
+						src="assets/icons/Profile.png"
+						alt="Cart"
+						height="24px"
+				/></a>
+			</div>
+		</nav>
+
+		<div aria-label="breadcrumb">
+			<ol class="breadcrumb container px-5">
+				<li class="breadcrumb-item breadcrumb-style">
+					<a href="/index.html">Home</a>
+				</li>
+				<li class="breadcrumb-item breadcrumb-style">
+					<a
+						class="breadcrumb-inactive-page"
+						href="/products.html"
+						>Cart</a
+					>
+				</li>
+			</ol>
+		</div>
+
+		<div class="product-display container px-5">
+			<div class="container">
+				<h2 class="section-title">Your Cart</h2>
+				<div class="row gap-3">
+					<div class="col cart-section-card">
+						<div class="row px-3 py-2">
+							<div class="col-lg-3">
+								<img
+									src="assets/products/Product1.png"
+									alt="1"
+									height="128px"
+								/>
+							</div>
+							<div class="col-lg-9">
+								<div class="row">
+									<div class="col-12 d-flex justify-content-between">
+										<div class=" your-cart-title">Headphones</div>
+										<div class=" your-cart-title">
+											<i
+											class="fa-solid fa-trash"
+											style="color: #ff5959"
+											></i>
+										</div>
+										</div>
+									</div>
+								<div class="your-cart-subtitle">Medium</div>
+								<div class="your-cart-subtitle">Black</div>
+								<div class="row mt-4">
+									<div class="col-12">
+										<div class="d-flex justify-content-between">
+											<div class=" your-cart-price">$99.99</div>
+												<div>
+													<div
+													class="add-button-cart"
+													style="display: flex; justify-content: space-around"
+													>
+												<span>- &ensp; 1 &ensp; +</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="border-end"></div>
+						<div class="row px-3 py-2">
+							<div class="col-lg-3">
+								<img
+									src="assets/products/Product2.png"
+									alt="1"
+									height="128px"
+								/>
+							</div>
+							<div class="col-lg-9">
+								<div class="row">
+									<div class="col-12 d-flex justify-content-between">
+										<div class=" your-cart-title">Suppliments</div>
+										<div class=" your-cart-title">
+											<i
+											class="fa-solid fa-trash"
+											style="color: #ff5959"
+											></i>
+										</div>
+										</div>
+									</div>
+								<div class="your-cart-subtitle">Medium</div>
+								<div class="your-cart-subtitle">Black</div>
+								<div class="row mt-4">
+									<div class="col-12">
+										<div class="d-flex justify-content-between">
+											<div class=" your-cart-price">$99.99</div>
+												<div>
+													<div
+													class="add-button-cart"
+													style="display: flex; justify-content: space-around"
+													>
+												<span>- &ensp; 1 &ensp; +</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="border-end"></div>
+						<div class="row px-3 py-2">
+							<div class="col-lg-3">
+								<img
+									src="assets/products/Product3.png"
+									alt="1"
+									height="128px"
+								/>
+							</div>
+							<div class="col-lg-9">
+								<div class="row">
+									<div class="col-12 d-flex justify-content-between">
+										<div class=" your-cart-title">Shoes</div>	
+										<div class=" your-cart-title">
+											<i
+											class="fa-solid fa-trash"
+											style="color: #ff5959"
+											></i>
+										</div>
+										</div>
+									</div>
+								<div class="your-cart-subtitle">Medium</div>
+								<div class="your-cart-subtitle">Black</div>
+								<div class="row mt-4">
+									<div class="col-12">
+										<div class="d-flex justify-content-between">
+											<div class=" your-cart-price">$99.99</div>
+												<div>
+													<div
+													class="add-button-cart"
+													style="display: flex; justify-content: space-around"
+													>
+												<span>- &ensp; 1 &ensp; +</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="col cart-section-card p-4">
+						<div class="summary-card-title">Order Summary</div>
+						<div class="row">
+							<div class="summary-card-text col-lg-9">Sub total</div>
+							<div class="col-lg-3 card-price">$117.89</div>
+						</div>
+						<div class="row">
+							<div class="summary-card-text col-lg-9">Discount</div>
+							<div
+								class="col-lg-3 card-price"
+								style="color: #ff5959"
+							>
+								-$23
+							</div>
+						</div>
+						<div class="row">
+							<div class="summary-card-text col-lg-9">Delivery Charge</div>
+							<div class="col-lg-3 card-price">$10</div>
+						</div>
+						<div class="border-end"></div>
+						<div class="row">
+							<div class="summary-card-subtitle col-lg-9">Total</div>
+							<div class="col-lg-3 card-price">$104.96</div>
+						</div>
+						<form
+							class="d-flex w-1"
+							role="search"
+						>
+							<div class="input-icon w-100 mt-4">
+								<i
+									class="fa-solid fa-tag"
+									style="color: #909090"
+								></i>
+								<input
+									class="form-control me-2 px-5"
+									type="search"
+									placeholder="Add Promo Code"
+									aria-label="Search"
+								/>
+							</div>
+						</form>
+
+						<a
+							href="checkout-page.html"
+							style="text-decoration: none"
+							><button class="card-button-goto-checkout">
+								Go to Checkout
+								<span
+									><i
+										class="fa-solid fa-arrow-right fa-xs"
+										style="color: #ffffff"
+									></i
+								></span></button
+						></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="newsletter-section">
+			<div class="newsletter-container container">
+				<p class="newsletter-text">
+					STAY UPTO DATE<br />WITH OUR LATEST OFFERS.
+				</p>
+				<div class="newsletter-actions">
+					<input
+						type="email"
+						placeholder="Enter your email"
+						class="email-input"
+					/>
+					<button class="subscribe-button subscribe-text">
+						Subscribe to our newsletter
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<div class="my-5 container footer">
+			<div class="row">
+				<div class="col-lg-2 col-xs-12 links">
+					<h4 class="mt-lg-0 mt-sm-3 link">Resources</h4>
+					<ul class="my-4 p-0 footer-contents">
+						<li><a href="#">Gift Cards</a></li>
+						<li><a href="#">Shops</a></li>
+						<li><a href="#">Membership</a></li>
+						<li><a href="#">Feedback </a></li>
+						<li><a href="#">Offers</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-xs-12 links">
+					<h4 class="mt-lg-0 mt-sm-3 link">Help</h4>
+					<ul class="my-4 p-0">
+						<li><a href="#">Customer Support</a></li>
+						<li><a href="#">Shipment Details</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Terms and Agreements</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-xs-12 links">
+					<h4 class="mt-lg-0 mt-sm-3 link">Company</h4>
+					<ul class="my-4 p-0">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Purpose</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-xs-12 about-company">
+					<h2>Cerulean Store</h2>
+					<h5 class="pr-5 text-black-50 fw-light">
+						We have sportwear and accessories with premium <br />
+						quality and stylish fashion for men, women and kids.
+					</h5>
+					<h1 class="footer-icons">
+						<i class="fa-brands fa-facebook icons"></i>&ensp;<i
+							class="fa-brands fa-instagram icons"
+						></i
+						>&ensp;<i class="fa-brands fa-x-twitter" style="color: #000000;"></i></i>
+					</h1>
+				</div>
+			</div>
+			<div class="border mt-5"></div>
+			<div class="row mt-5">
+				<div class="col copyright">
+					<p>
+						<small class="text-black-50"
+							>© 2025 Cerulean. All Rights Reserved.</small
+						>
+					</p>
+				</div>
+			</div>
+		</div>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+			integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

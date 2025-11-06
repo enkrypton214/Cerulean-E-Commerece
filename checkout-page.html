@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		/>
+		<title>Checkout</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+
+		<link
+			href="./FontAwesome/css/all.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="./FontAwesome/css/fontawesome.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="./FontAwesome/css/brands.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="product-display container px-5 mt-2">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="block px-3">Shipping</div>
+					<div class="cart-section-card p-2">
+						<form>
+							<div class="row">
+								<div class="form-group col form-title">
+									First Name
+									<input
+										type="text"
+										class="form-control"
+										placeholder="First name"
+									/>
+								</div>
+								<div class="form-group col form-title">
+									Last Name
+									<input
+										type="text"
+										class="form-control"
+										placeholder="Last name"
+									/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6 form-title">
+									<label for="inputEmail4">Email</label>
+									<input
+										type="email"
+										class="form-control"
+										id="inputEmail4"
+										placeholder="Email"
+									/>
+								</div>
+								<div class="form-group col-md-6 form-title">
+									<label for="number">Phone Number</label>
+									<input
+										type="tel"
+										class="form-control"
+										id="number"
+										placeholder="Phone Number"
+									/>
+								</div>
+							</div>
+							<div class="form-group form-title">
+								<label for="inputAddress">Address</label>
+								<input
+									type="text"
+									class="form-control"
+									id="inputAddress"
+									placeholder="1234 Main St"
+								/>
+							</div>
+							<div class="form-group form-title">
+								<label for="inputAddress2">Address 2</label>
+								<input
+									type="text"
+									class="form-control"
+									id="inputAddress2"
+									placeholder="Apartment, studio, or floor"
+								/>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6 form-title">
+									<label for="inputCity">Country</label>
+									<input
+										type="text"
+										class="form-control"
+										id="inputCity"
+									/>
+								</div>
+								<div class="form-group col-md-4 form-title">
+									<label for="inputCity">City</label>
+									<input
+										type="text"
+										class="form-control"
+										id="inputCity"
+									/>
+								</div>
+								<div class="form-group col-md-2 form-title">
+									<label for="inputZip">Zip</label>
+									<input
+										type="text"
+										class="form-control"
+										id="inputZip"
+									/>
+								</div>
+							</div>
+							<div class="form-group form-title">Select Delivery Method</div>
+							<div class="form-check">
+								<input
+									class="form-check-input"
+									type="radio"
+									name="deliveryMethod"
+									id="deliveryStandard"
+									value="standard"
+									checked
+								/>
+								<label
+									class="form-check-label"
+									for="deliveryStandard"
+								>
+									Standard Delivery
+								</label>
+							</div>
+							<div class="form-check">
+								<input
+									class="form-check-input"
+									type="radio"
+									name="deliveryMethod"
+									id="deliveryExpress"
+									value="express"
+								/>
+								<label
+									class="form-check-label"
+									for="deliveryExpress"
+								>
+									Express Delivery
+								</label>
+							</div>
+							<div class="form-group form-title">
+								Payment Method
+								<select
+									class="form-control"
+									id="paymentMethod"
+									name="paymentMethod"
+								>
+									<option
+										value=""
+										disabled
+										selected
+									>
+										Select Method of Payment
+									</option>
+									<option value="cash">Cash on Delivery</option>
+									<option value="card">Card Payment</option>
+									<option value="bank">Bank Payment</option>
+								</select>
+							</div>
+
+							<div class="border-end mt-4"></div>
+							<div class="form-group">
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="checkbox"
+										id="gridCheck"
+									/>
+									<label
+										class="form-check-label"
+										for="gridCheck"
+									>
+										I have read all the term and conditions and give consent to
+										Cerulean for processing my information in accordance to the
+										Privacy Statement and Cookie Policy.
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="d-flex justify-content-end my-2">
+						<a href="index.html"
+							><button
+								type="submit"
+								class="btn card-button continue-button"
+							>
+								Continue
+							</button></a
+						>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="col cart-section-card p-4">
+						<div class="summary-card-checkout-title">Order Summary</div>
+						<div class="row">
+							<div class="summary-card-checkout-text col-lg-9">Sub total</div>
+							<div class="col-lg-3 card-price">$117.89</div>
+						</div>
+						<div class="row">
+							<div class="summary-card-checkout-text col-lg-9">Discount</div>
+							<div
+								class="col-lg-3 card-price"
+								style="color: #ff5959"
+							>
+								-$23
+							</div>
+						</div>
+						<div class="row">
+							<div class="summary-card-checkout-text col-lg-9">
+								Delivery Charge
+							</div>
+							<div class="col-lg-3 card-price">$10</div>
+						</div>
+						<div class="border-end"></div>
+						<div class="row">
+							<div class="summary-card-checkout-subtitle col-lg-9">Total</div>
+							<div class="col-lg-3 card-price">$104.96</div>
+						</div>
+					</div>
+					<div class="col cart-section-card p-4 mt-4">
+						<div class="summary-card-checkout-title">In Your Cart</div>
+						<div class="border-end"></div>
+						<div class="row">
+							<div class="summary-card-checkout-subtitle col-lg-9">
+								Arrives in 12/28/2025
+							</div>
+						</div>
+						<div class="row mt-2">
+							<div class="col-7">
+								<img
+									src="assets/products/Product1.png"
+									alt="1"
+									height="256px"
+								/>
+							</div>
+							<div class="col-4">
+								<div class="row">
+									<div class="col-lg-11 your-cart-title">Headphones</div>
+								</div>
+								<div class="your-cart-subtitle">Medium</div>
+								<div class="your-cart-subtitle">Black</div>
+								<div class="row mt-4">
+									<div class="col-lg-9 your-cart-title">$99.99</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<button class="card-button-next-item">
+									<div class="d-flex justify-content-center">
+										<span
+											><i
+												class="fa-solid fa-arrow-left arrow-left-item fa-xs"
+												style="color: #000000"
+											></i></span
+										><span>Previous</span>
+									</div>
+								</button>
+							</div>
+							<div class="col-6">
+								<button class="card-button-next-item">
+									<div class="d-flex justify-content-center">
+										<span>Next</span>
+										<span
+											><i
+												class="fa-solid fa-arrow-right arrow-right-item fa-xs"
+												style="color: #000000"
+											></i
+										></span>
+									</div>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+			integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
