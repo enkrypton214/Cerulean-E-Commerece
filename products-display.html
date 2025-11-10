@@ -32,116 +32,39 @@
 		/>
 	</head>
 	<body>
+		
 		<nav class="navbar navbar-expand-lg">
-			<div class="container">
-				<a
-					class="navbar-brand"
-					href="#"
-					>Cerulean</a
-				>
+  <div class="container">
+    <a class="navbar-brand" href="#">Cerulean</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/products-listing.html">Men</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Women</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Kids</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Accessories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">OnSale</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">New Arrivals</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">Brands</a></li>
+      </ul>
 
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle"
-							href="#"
-							role="button"
-							data-bs-toggle="dropdown"
-							aria-expanded="false"
-						>
-							Shop
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Men</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Women</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Kids</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Accessories</a
-								>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							aria-current="page"
-							href="/products-listing.html"
-							>OnSale</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							href="/products-listing.html"
-							>New Arrivals</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							href="/products-listing.html"
-							>Brands</a
-						>
-					</li>
-				</ul>
-				<form
-					class="d-flex w-25"
-					role="search"
-				>
-					<div class="input-icon w-100">
-						<i
-							class="fa-solid fa-magnifying-glass"
-							style="color: #909090"
-						></i>
-						<input
-							class="form-control me-2 px-5"
-							type="search"
-							placeholder="Search for Products..."
-							aria-label="Search"
-						/>
-					</div>
-				</form>
-				<a
-					class="nav-link navbar-text"
-					href="#"
-				>
-					<img
-						class="px-2"
-						src="assets/icons/Cart.png"
-						alt="Cart"
-						height="24px" /></a
-				><a
-					class="nav-link navbar-text"
-					href="#"
-				>
-					<img
-						class="px-2"
-						src="assets/icons/Profile.png"
-						alt="Cart"
-						height="24px"
-				/></a>
-			</div>
+      <form class="d-flex w-25" role="search">
+        <div class="input-icon w-100">
+          <i class="fa-solid fa-magnifying-glass" style="color: #606060"></i>
+          <input class="form-control me-2 px-5" type="search" placeholder="Search Here..." aria-label="Search">
+        </div>
+      </form>
+      <a class="nav-link navbar-text" href="#"><img class="px-2" src="assets/icons/Cart.png" alt="Cart" height="24px"></a> 
+      <a class="nav-link navbar-text" href="#"><img class="px-2" src="assets/icons/Profile.png" alt="Cart" height="24px"></a>
+    </div>
+  </div>
 		</nav>
 
 		<div aria-label="breadcrumb">
@@ -169,7 +92,7 @@
 			<div class="row gap-4">
 				<div class="col">
 					<div class="row">
-						<div class="col-xl-3">
+						<div class="col-md-3">
 							<div class="row mb-4">
 								<img
 									src="assets/products/Shoes-Red1.png"
@@ -189,7 +112,7 @@
 								/>
 							</div>
 						</div>
-						<div class="col-xl-9">
+						<div class="col-md-9">
 							<img
 								src="assets/products/Shoes-Red2.png"
 								alt="Shoes-Red2"
@@ -242,7 +165,7 @@
 							<button class="product-display-sizes-button-active">Small</button>
 							<button class="product-display-sizes-button">Medium</button>
 							<button class="product-display-sizes-button">Large</button>
-							<button class="product-display-sizes-button">XL</button>
+							<button class="product-display-sizes-button">md</button>
 						</div>
 						<div class="border mt-3"></div>
 						<div class="text-center">

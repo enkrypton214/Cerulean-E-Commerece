@@ -24,116 +24,38 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg">
-			<div class="container">
-				<a
-					class="navbar-brand"
-					href="#"
-					>Cerulean</a
-				>
+  <div class="container">
+    <a class="navbar-brand" href="#">Cerulean</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/products-listing.html">Men</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Women</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Kids</a></li>
+            <li><a class="dropdown-item" href="/products-listing.html">Accessories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">OnSale</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">New Arrivals</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products-listing.html">Brands</a></li>
+      </ul>
 
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle"
-							href="#"
-							role="button"
-							data-bs-toggle="dropdown"
-							aria-expanded="false"
-						>
-							Shop
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Men</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Women</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Kids</a
-								>
-							</li>
-							<li>
-								<a
-									class="dropdown-item"
-									href="/products-listing.html"
-									>Accessories</a
-								>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							aria-current="page"
-							href="/products-listing.html"
-							>OnSale</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							href="/products-listing.html"
-							>New Arrivals</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link"
-							href="/products-listing.html"
-							>Brands</a
-						>
-					</li>
-				</ul>
-				<form
-					class="d-flex w-25"
-					role="search"
-				>
-					<div class="input-icon w-100">
-						<i
-							class="fa-solid fa-magnifying-glass"
-							style="color: #909090"
-						></i>
-						<input
-							class="form-control me-2 px-5"
-							type="search"
-							placeholder="Search for Products..."
-							aria-label="Search"
-						/>
-					</div>
-				</form>
-				<a
-					class="nav-link navbar-text"
-					href="#"
-				>
-					<img
-						class="px-2"
-						src="assets/icons/Cart.png"
-						alt="Cart"
-						height="24px" /></a
-				><a
-					class="nav-link navbar-text"
-					href="#"
-				>
-					<img
-						class="px-2"
-						src="assets/icons/Profile.png"
-						alt="Cart"
-						height="24px"
-				/></a>
-			</div>
-		</nav>
+      <form class="d-flex w-25" role="search">
+        <div class="input-icon w-100">
+          <i class="fa-solid fa-magnifying-glass" style="color: #606060"></i>
+          <input class="form-control me-2 px-5" type="search" placeholder="Search Here..." aria-label="Search">
+        </div>
+      </form>
+      <a class="nav-link navbar-text" href="#"><img class="px-2" src="assets/icons/Cart.png" alt="Cart" height="24px"></a> 
+      <a class="nav-link navbar-text" href="#"><img class="px-2" src="assets/icons/Profile.png" alt="Cart" height="24px"></a>
+    </div>
+  </div>
+</nav>
 
 		<div aria-label="breadcrumb">
 			<ol class="breadcrumb container px-3 ">
@@ -212,100 +134,12 @@
 					<div style="display: flex">
 			<div class="container text-center">
 				<div class="row row-cols-3">
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
-							<img
-								src="assets/products/Product2.png"
-								class="card-img"
-								alt="1"
-								width="100px"
-								height="auto"
-							/>
-							<div class="card-body">
-								<h5 class="card-tag">Accessories</h5>
-								<h5 class="card-title">Headphones</h5>
-								<!-- <h6 class="star-alignment">
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-									</h6> -->
-								<div class="flex">
-									<div class="row">
-										<div class="col-sm">
-											<p class="card-price">$99.99</p>
-										</div>
-										<div class="col-sm btn card-button">
-											<i
-												class="fa-solid fa-cart-shopping"
-												style="color: #ffffff; margin-right: 8px"
-											></i
-											><a
-												href="/products-display.html"
-												class="add-to-cart"
-												>Add to Cart</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="heart-icon"></div>
-						
-						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
-							<img
-								src="assets/products/Product3.png"
-								class="card-img"
-								alt="1"
-								width="100px"
-								height="auto"
-							/>
-							<div class="card-body">
-								<h5 class="card-tag">Accessories</h5>
-								<h5 class="card-title">Headphones</h5>
-								<!-- <h6 class="star-alignment">
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-									</h6> -->
-								<div class="flex">
-									<div class="row">
-										<div class="col-sm">
-											<p class="card-price">$99.99</p>
-										</div>
-										<div class="col-sm btn card-button">
-											<i
-												class="fa-solid fa-cart-shopping"
-												style="color: #ffffff; margin-right: 8px"
-											></i
-											><a
-												href="/products-display.html"
-												class="add-to-cart"
-												>Add to Cart</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="heart-icon"></div>
-						
-						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
+					<div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
 							<img
 								src="assets/products/Product1.png"
 								class="card-img"
 								alt="1"
-								width="100px"
 								height="auto"
 							/>
 							<div class="card-body">
@@ -321,9 +155,9 @@
 								<div class="flex">
 									<div class="row">
 										<div class="col-sm">
-											<p class="card-price">$99.99</p>
+											<span class="card-price">$99.99</span>
 										</div>
-										<div class="col-sm btn card-button">
+										<div class="col-sm card-button">
 											<i
 												class="fa-solid fa-cart-shopping"
 												style="color: #ffffff; margin-right: 8px"
@@ -338,17 +172,91 @@
 								</div>
 							</div>
 							<div class="heart-icon"></div>
-						
 						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
+							<img
+								src="assets/products/Product2.png"
+								class="card-img"
+								alt="1"
+								height="auto"
+							/>
+							<div class="card-body">
+								<h5 class="card-tag">Accessories</h5>
+								<h5 class="card-title">Headphones</h5>
+								<!-- <h6 class="star-alignment">
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+									</h6> -->
+								<div class="flex">
+									<div class="row">
+										<div class="col-sm">
+											<span class="card-price">$99.99</span>
+										</div>
+										<div class="col-sm card-button">
+											<i
+												class="fa-solid fa-cart-shopping"
+												style="color: #ffffff; margin-right: 8px"
+											></i
+											><a
+												href="/products-display.html"
+												class="add-to-cart"
+												>Add to Cart</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="heart-icon"></div>
+						</div>
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
+							<img
+								src="assets/products/Product3.png"
+								class="card-img"
+								alt="1"
+								height="auto"
+							/>
+							<div class="card-body">
+								<h5 class="card-tag">Accessories</h5>
+								<h5 class="card-title">Headphones</h5>
+								<!-- <h6 class="star-alignment">
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+									</h6> -->
+								<div class="flex">
+									<div class="row">
+										<div class="col-sm">
+											<span class="card-price">$99.99</span>
+										</div>
+										<div class="col-sm card-button">
+											<i
+												class="fa-solid fa-cart-shopping"
+												style="color: #ffffff; margin-right: 8px"
+											></i
+											><a
+												href="/products-display.html"
+												class="add-to-cart"
+												>Add to Cart</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="heart-icon"></div>
+						</div>
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
 							<img
 								src="assets/products/Product4.png"
 								class="card-img"
 								alt="1"
-								width="100px"
 								height="auto"
 							/>
 							<div class="card-body">
@@ -364,9 +272,9 @@
 								<div class="flex">
 									<div class="row">
 										<div class="col-sm">
-											<p class="card-price">$99.99</p>
+											<span class="card-price">$99.99</span>
 										</div>
-										<div class="col-sm btn card-button">
+										<div class="col-sm card-button">
 											<i
 												class="fa-solid fa-cart-shopping"
 												style="color: #ffffff; margin-right: 8px"
@@ -381,17 +289,13 @@
 								</div>
 							</div>
 							<div class="heart-icon"></div>
-						
 						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
 							<img
 								src="assets/products/Product1.png"
 								class="card-img"
 								alt="1"
-								width="100px"
 								height="auto"
 							/>
 							<div class="card-body">
@@ -407,9 +311,9 @@
 								<div class="flex">
 									<div class="row">
 										<div class="col-sm">
-											<p class="card-price">$99.99</p>
+											<span class="card-price">$99.99</span>
 										</div>
-										<div class="col-sm btn card-button">
+										<div class="col-sm card-button">
 											<i
 												class="fa-solid fa-cart-shopping"
 												style="color: #ffffff; margin-right: 8px"
@@ -424,60 +328,13 @@
 								</div>
 							</div>
 							<div class="heart-icon"></div>
-						
 						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
-							<img
-								src="assets/products/Product3.png"
-								class="card-img"
-								alt="1"
-								width="100px"
-								height="auto"
-							/>
-							<div class="card-body">
-								<h5 class="card-tag">Accessories</h5>
-								<h5 class="card-title">Headphones</h5>
-								<!-- <h6 class="star-alignment">
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-									</h6> -->
-								<div class="flex">
-									<div class="row">
-										<div class="col-sm">
-											<p class="card-price">$99.99</p>
-										</div>
-										<div class="col-sm btn card-button">
-											<i
-												class="fa-solid fa-cart-shopping"
-												style="color: #ffffff; margin-right: 8px"
-											></i
-											><a
-												href="/products-display.html"
-												class="add-to-cart"
-												>Add to Cart</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="heart-icon"></div>
-						
-						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
 							<img
 								src="assets/products/Product2.png"
 								class="card-img"
 								alt="1"
-								width="100px"
 								height="auto"
 							/>
 							<div class="card-body">
@@ -493,9 +350,9 @@
 								<div class="flex">
 									<div class="row">
 										<div class="col-sm">
-											<p class="card-price">$99.99</p>
+											<span class="card-price">$99.99</span>
 										</div>
-										<div class="col-sm btn card-button">
+										<div class="col-sm card-button">
 											<i
 												class="fa-solid fa-cart-shopping"
 												style="color: #ffffff; margin-right: 8px"
@@ -510,17 +367,13 @@
 								</div>
 							</div>
 							<div class="heart-icon"></div>
-						
 						</div>
-					</div>
-					<div class="col mb-2">
-						
-							<div class="card card-shadow">
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
 							<img
 								src="assets/products/Product3.png"
 								class="card-img"
 								alt="1"
-								width="100px"
 								height="auto"
 							/>
 							<div class="card-body">
@@ -536,9 +389,9 @@
 								<div class="flex">
 									<div class="row">
 										<div class="col-sm">
-											<p class="card-price">$99.99</p>
+											<span class="card-price">$99.99</span>
 										</div>
-										<div class="col-sm btn card-button">
+										<div class="col-sm card-button">
 											<i
 												class="fa-solid fa-cart-shopping"
 												style="color: #ffffff; margin-right: 8px"
@@ -553,12 +406,52 @@
 								</div>
 							</div>
 							<div class="heart-icon"></div>
-						
+						</div>
+					</div><div class="col-lg-4 col-md-6 col-6 mb-2">
+						<div class="card card-shadow">
+							<img
+								src="assets/products/Product4.png"
+								class="card-img"
+								alt="1"
+								height="auto"
+							/>
+							<div class="card-body">
+								<h5 class="card-tag">Accessories</h5>
+								<h5 class="card-title">Headphones</h5>
+								<!-- <h6 class="star-alignment">
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+									<i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+									</h6> -->
+								<div class="flex">
+									<div class="row">
+										<div class="col-sm">
+											<span class="card-price">$99.99</span>
+										</div>
+										<div class="col-sm card-button">
+											<i
+												class="fa-solid fa-cart-shopping"
+												style="color: #ffffff; margin-right: 8px"
+											></i
+											><a
+												href="/products-display.html"
+												class="add-to-cart"
+												>Add to Cart</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="heart-icon"></div>
 						</div>
 					</div>
+					
 				</div>
 			</div>
-		</div><nav aria-label="Page navigation example">
+		</div>
+		<nav aria-label="Page navigation example">
   <ul class="pagination mt-3 d-flex justify-content-between">
     <li class="page-item">
       <div class="page-button"><i class="fa-solid fa-angle-left fa-xs" style="color: #000000;"></i>Previous</div>
@@ -586,8 +479,8 @@
 
 <div class="my-5 container footer">
 			<div class="row">
-				<div class="col-lg-2 col-xs-12 links">
-					<h4 class="mt-lg-0 mt-sm-3 link">Resources</h4>
+				<div class="col-md-2 col-4 links">
+					<h4 class="mt-lg-0 link">Resources</h4>
 					<ul class="my-4 p-0 footer-contents">
 						<li><a href="#">Gift Cards</a></li>
 						<li><a href="#">Shops</a></li>
@@ -596,8 +489,8 @@
 						<li><a href="#">Offers</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2 col-xs-12 links">
-					<h4 class="mt-lg-0 mt-sm-3 link">Help</h4>
+				<div class="col-md-2 col-4 links">
+					<h4 class="mt-lg-0 link">Help</h4>
 					<ul class="my-4 p-0">
 						<li><a href="#">Customer Support</a></li>
 						<li><a href="#">Shipment Details</a></li>
@@ -606,8 +499,8 @@
 						<li><a href="#">Terms and Agreements</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2 col-xs-12 links">
-					<h4 class="mt-lg-0 mt-sm-3 link">Company</h4>
+				<div class="col-md-2 col-4 links">
+					<h4 class="mt-lg-0 link">Company</h4>
 					<ul class="my-4 p-0">
 						<li><a href="#">About</a></li>
 						<li><a href="#">Career</a></li>
@@ -616,9 +509,9 @@
 						<li><a href="#">Purpose</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-6 col-xs-12 about-company">
+				<div class="col-md-6  about-company">
 					<h2>Cerulean Store</h2>
-					<h5 class="pr-5 text-black-50 fw-light">
+					<h5 class="pr-5 text-black-50 fw-light footer-subtext">
 						We have sportwear and accessories with premium <br />
 						quality and stylish fashion for men, women and kids.
 					</h5>
@@ -630,7 +523,7 @@
 					</h1>
 				</div>
 			</div>
-			<div class="border mt-5"></div>
+			<div class="border mt-5"></div>	
 			<div class="row mt-5">
 				<div class="col copyright">
 					<p>
