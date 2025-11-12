@@ -71,66 +71,94 @@
 
 		<div class="products-body container ">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-md-3">
 					<div class="filter" >
-						<div
-							class="card filter-card"
-						>
-<div class="list-items-title"><div class="d-flex justify-content-between"><span>Filters</span><div class="fa-solid fa-bars"></div></div></div>
-<ul class="list-group list-group-flush">
 
-<ul class="list-inline">
-  <li class="list-items">
-	<div class="filter-items">
-			<div>Shorts </div>
-			<div><i class="fa-solid fa-angle-right fa-sm" style="color: #000000;"></i></div>
+<div class="card filter-card" id="filterCard">
+	<div class="list-items-title">
+		<div class="d-flex justify-content-between align-items-center">
+			<span>Filters</span>
+			<i class="fa-solid fa-bars"></i>
+		</div>
 	</div>
-</li>
-<li class="list-items">
-	<div class="filter-items">
-			<div>Accessories</div>
-			<div><i class="fa-solid fa-angle-right fa-sm" style="color: #000000;"></i></div>
-	</div>
-</li><li class="list-items">
-	<div class="filter-items">
-			<div>Shoes </div>
-			<div><i class="fa-solid fa-angle-right fa-sm" style="color: #000000;"></i></div>
-	</div>
-</li><li class="list-items">
-	<div class="filter-items">
-			<div>Shirt </div>
-			<div><i class="fa-solid fa-angle-right fa-sm" style="color: #000000;"></i></div>
-	</div>
-</li>
 
-    <div class="border-end"></div>
+	<ul class="list-group list-group-flush">
+		<ul class="list-inline">
+			<li class="list-items">
+				<div class="filter-items">
+					<div>Shorts</div>
+					<div><i class="fa-solid fa-angle-right fa-sm"></i></div>
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="filter-items">
+					<div>Accessories</div>
+					<div><i class="fa-solid fa-angle-right fa-sm"></i></div>
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="filter-items">
+					<div>Shoes</div>
+					<div><i class="fa-solid fa-angle-right fa-sm"></i></div>
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="filter-items">
+					<div>Shirt</div>
+					<div><i class="fa-solid fa-angle-right fa-sm"></i></div>
+				</div>
+			</li>
+
+			<div class="border-end"></div>
+
   <li class="list-items-title">Price</li>
   <input  style="width: 100%;" type="range" min="1" max="100" value="30">						
     <div class="border-end"></div>
-	
-	<li class="list-items-title">Brands</li>
-<li class="list-items"><div class="list-items-flex"><div>Adidas</div><div><input type="checkbox" name="" id=""></div></div></li>
-<li class="list-items"><div class="list-items-flex"><div>Puma</div><div><input type="checkbox" name="" id=""></div></div></li>
-<li class="list-items"><div class="list-items-flex"><div>Under Armor</div><div><input type="checkbox" name="" id=""></div></div></li>
-<li class="list-items"><div class="list-items-flex"><div>Erke</div><div><input type="checkbox" name="" id=""></div></div></li>
-<button class="card-button-filter">View More</button>
-<div class="border-end mt-3"></div>
-	
-	<li class="list-items-title">Sizes</li>
-<button class="product-display-sizes-button-active mr-2">S</button>
-<button class="product-display-sizes-button mr-2">M</button>
-<button class="product-display-sizes-button mr-2">L</button>
-<button class="product-display-sizes-button mr-2">XL</button>
-<div class="border-end my-3"></div>
 
-<button class="card-button-filter-apply">Apply Filter</button>
+			<li class="list-items-title">Brands</li>
+			<li class="list-items">
+				<div class="list-items-flex">
+					<div>Adidas</div>
+					<input type="checkbox" />
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="list-items-flex">
+					<div>Puma</div>
+					<input type="checkbox" />
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="list-items-flex">
+					<div>Under Armor</div>
+					<input type="checkbox" />
+				</div>
+			</li>
+			<li class="list-items">
+				<div class="list-items-flex">
+					<div>Erke</div>
+					<input type="checkbox" />
+				</div>
+			</li>
 
-</ul>
-							
-						</div>
+			<button class="card-button-filter">View More</button>
+			<div class="border-end mt-3"></div>
+
+			<li class="list-items-title">Sizes</li>
+			<button class="product-display-sizes-button-active mr-2">S</button>
+			<button class="product-display-sizes-button mr-2">M</button>
+			<button class="product-display-sizes-button mr-2">L</button>
+			<button class="product-display-sizes-button mr-2">XL</button>
+
+			<div class="border-end my-3"></div>
+
+			<button class="card-button-filter-apply">Apply Filter</button>
+		</ul>
+	</ul>
+</div>
 					</div>
 				</div>
-				<div class="col-9">
+				<div class="col-md-9">
 					<div style="display: flex">
 			<div class="container text-center">
 				<div class="row row-cols-3">
@@ -451,7 +479,9 @@
 				</div>
 			</div>
 		</div>
-		<nav aria-label="Page navigation example">
+
+
+<div class="navigationexample" aria-label="Page navigation example">
   <ul class="pagination mt-3 d-flex justify-content-between">
     <li class="page-item">
       <div class="page-button"><i class="fa-solid fa-angle-left fa-xs" style="color: #000000;"></i>Previous</div>
@@ -467,7 +497,8 @@
       <div class="page-button">Next <i class="fa-solid fa-angle-right fa-xs" style="color: #000000;"></i></div>
     </li>
   </ul>
-</nav></div>
+</div>
+</div>
 		
 </div>
 </div>
@@ -544,6 +575,12 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
 		/>
+		
+<script>
+	document.querySelector('#filterCard .fa-bars').addEventListener('click', () => {
+		document.getElementById('filterCard').classList.toggle('open');
+	});
+</script>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
